@@ -32,13 +32,50 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  width: 100%;
 }
 
 .heading {
   text-transform: uppercase;
+  font-family: sans-serif;
 }
 
 .label {
   display: none;
+}
+
+button {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 5% 10%;
+}
+
+.form-group,
+::placeholder {
+  font-family: sans-serif;
+  color: black;
+}
+
+.input {
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 10px;
+  padding: 5% 10%;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+button:hover {
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 }
